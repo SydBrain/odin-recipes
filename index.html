@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vQn25T28k2xfZUSmDWrDewHaE7%26pid%3DApi&f=1&ipt=5f5f454bbef32e187ef30988e58e0d4f738b0339d5b9d5834644dcb587a3f37f&ipo=images" height="300" width="400" alt="an image of Odin">
-    <p>Odin's Recipe Book: Where divine dishes meet mortal hunger! Unleash the power of the gods in every bite. Because even a deity needs a snack now and then! 😄🍽️⚡</p>
-    <ul>
-        <li>
-            <a href="recipes/lasagna.html">Lasagna</a>
-        </li>
-        <li>
-            <a href="recipes/bruschetta.html">Bruschetta</a>
-        </li>
-        <li>
-            <a href="recipes/banana-bread.html">Banana Bread</a>
-        </li>
-    </ul>
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Odin's Culinary Delights</h1>
+            <p>
+                Odin's Recipe Book: Where divine dishes meet mortal hunger! Unleash the power of the gods in every bite.
+                <br>
+                Because even a deity needs a snack now and then!
+            </p>
+        </div>
+        <div class="hero-logo-container">
+            <img class="hero-logo" src="assets/images/odin-chef.png" alt="odin logo">
+        </div>
+    </header>
+    <section class="recipes">
+        <ul class="recipe-cards">
+            <li class="recipe-card">
+                <a href="recipes/lasagna.html">
+                    <h3>Lasagna</h3>
+                    <div class="recipe-image">
+                        <img src="assets/images/lasagna.png" alt="Lasagna">
+                    </div>
+                </a>
+            </li>
+            <li class="recipe-card">
+                <a href="recipes/bruschetta.html">
+                    <h3>Bruschetta</h3>
+                    <div class="recipe-image">
+                        <img src="assets/images/bruschetta.png" alt="Bruschetta">
+                    </div>
+                </a>
+            </li>
+            <li class="recipe-card">
+                <a href="recipes/banana-bread.html">
+                    <h3>Banana Bread</h3>
+                    <div class="recipe-image">
+                        <img src="assets/images/banana-bread.png" alt="Banana Bread">
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
 </body>
+
 </html>
